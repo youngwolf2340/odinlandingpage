@@ -55,12 +55,34 @@ img {
 }
 
 .sect2 {
-    display: flex;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
 }
 .info img {
     width: 100px;
     height: 100px;
     border-radius: 5px;
+}
+.container {
+    display: flex;
+    gap: 52px;
+}
+.info {
+    background-color: lightblue;
+    
+    
+    
+    max-width: 200px;
+    
+}
+
+.header2 {
+    background-color: coral;
+    margin: 20px;
+    width: max-content;
 }
 .logo {
     
