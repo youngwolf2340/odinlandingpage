@@ -4,6 +4,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 .sect1 {
     background-color: #1F2937;
@@ -167,6 +168,7 @@ ul {
     background-color: #3882f6;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
     align-items: center;
     height: 100px;
     padding: 20px;
@@ -175,20 +177,37 @@ ul {
     margin-right: 100px;
 }
 
-.cta {
-    background-color: coral;
-}
+
 .calltext {
     font-size: 24px;
+    font-weight: 600;
+}
+
+.calltext,.calltext2 {
+    color: white;
 }
 
 .cta2 {
     border-radius: 5px;
 }
 .button2 {
-    
+    color: white;
+    font-weight: 600;
     height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.footer {
     padding: 20px;
-    
-    
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
