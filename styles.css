@@ -57,7 +57,7 @@ img {
 
 .sect2 {
     text-align: center;
-    padding: 50px;
+    padding: 100px;
     
 }
 .info img {
@@ -120,4 +120,75 @@ ul {
 
 .buybutton {
     background-color: #3882f6;
+}
+
+.sect3 {
+    background-color: #E5E7EB;
+    padding: 100px;
+    
+}
+
+.testimonial {
+    
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
+}
+
+.signature {
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.customer {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sect4 {
+    
+    padding: 100px;
+}
+
+.callcontainer {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cta {
+    background-color: coral;
+}
+.calltext {
+    font-size: 24px;
+}
+
+.cta2 {
+    border-radius: 5px;
+}
+.button2 {
+    
+    height: 100%;
+    padding: 20px;
+    
+    
 }
